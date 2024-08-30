@@ -1,0 +1,189 @@
+/* Global Styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF0D5;
+    color: #003049;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #FDF0D5;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #780000;
+}
+
+header p {
+    font-size: 1.5em;
+    color: #C1121F;
+}
+
+.profile-pic {
+    margin-top: 20px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 285px;
+    height: 300px;
+    border: 4px solid #669BBC;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.contact-info a {
+    color: #669BBC;
+    text-decoration: none;
+}
+
+/* About Me Section */
+#about-me {
+    padding: 50px;
+    background-color: #780000;
+    color: #FDF0D5;
+    text-align: center;
+}
+
+#about-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about-me p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color: #003049;
+    color: #FDF0D5;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    background-color: #C1121F;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.project-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1em;
+}
+
+/* Education Section */
+#education {
+    padding: 50px;
+    background-color: #780000;
+    color: #FDF0D5;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#education p {
+    font-size: 1.2em;
+}
+
+/* Certifications Section */
+#certifications {
+    padding: 50px;
+    background-color: #003049;
+    color: #FDF0D5;
+    text-align: center;
+}
+
+#certifications h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#certifications ul {
+    list-style: none;
+    padding: 0;
+}
+
+#certifications li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    background-color: #780000;
+    color: #FDF0D5;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#skills p {
+    font-size: 1.2em;
+}
+
+/* Contact Me Section */
+#follow-me {
+    padding: 50px;
+    background-color: #C1121F;
+    color: #FDF0D5;
+    text-align: center;
+}
+
+#follow-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#follow-me p {
+    font-size: 1.2em;
+}
+
+.footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 var(--mb-2);
+  }
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    background-color: #003049;
+    color: #FDF0D5;
+    text-align: center;
+}
